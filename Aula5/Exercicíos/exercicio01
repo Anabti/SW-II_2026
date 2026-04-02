@@ -1,0 +1,5 @@
+<?php
+    $produto = '{"Nome":Perfume,"preco":150,"quant":12 }';
+    $produto = json_decode($produto,true);
+    var_dump($produto);
+?> 
