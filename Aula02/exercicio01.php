@@ -1,15 +1,12 @@
 <?php
-    $nome= ["Ana"];
-   // $idade =["18"];
-    //$cidade =["Ribeirão Pires"];
-
+    echo "EXERCÍCIO 01:";
     echo '<hr>';
 
-    //echo 'Seu Nome é'. $nome [0];
-   // echo 'Sua idade é'.$idade [1];
-    //echo 'Sua cidade é'.$cidade[2];
+    $nome = 'Geovana Brito';
+    $idade = 17;
+    $cidade = 'Ribeirão Pires';
 
-    foreach ($nome as $key => $value) {
-        echo "Seu nome é" . $value;
-    }
+    echo "Seu nome é " . $nome . ", você tem " . $idade . " anos e mora em " . $cidade . ".";
+    echo '<br>';
+
 ?>
